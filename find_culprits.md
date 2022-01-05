@@ -53,7 +53,7 @@ let name = `${fname} ${lname}`;
 alert( `hello ${name}` );
 ```
 
-#Fix the below to alert sum of two numbers
+# Fix the below to alert sum of two numbers
 ```
 let a = 6;
 let b = 10;
@@ -201,6 +201,4 @@ while (countdown > 0) {
 ```
 
 # Whats the msg printed and why?
-  hi is printed because
-                                 
-                                 
+  hi is printed because string literals if present are considered as truthy and if in integer or number 0 is present it is considered as falsy so only hi is printed.                                                                  
